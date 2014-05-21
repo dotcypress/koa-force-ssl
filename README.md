@@ -1,6 +1,6 @@
 #koa-force-ssl
 
-Koa.js middleware for force SSL
+[Koa.js](http://koajs.com/) middleware for force SSL
 
 ## Install 
 ```
@@ -8,7 +8,7 @@ $ npm install koa-force-ssl
 ```
 
 ## API
-`forceSSL(port, host)`
+`forceSSL(port, host);`
 
 * port - SSL port (default value: 443)
 * host - host name for redirect (by default will redirect to same host)
@@ -30,7 +30,6 @@ app.use(forceSSL());
 app.use(function * (next) {
   this.body = "hello world from " + this.request.url;
 });
-
 
 // SSL options
 var options = {

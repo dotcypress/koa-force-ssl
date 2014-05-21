@@ -1,0 +1,26 @@
+{
+  "name": "koa-force-ssl",
+  "version": "0.0.2",
+  "description": "Koa.js middleware for force SSL",
+  "main": "index.js",
+  "homepage": "http://github.com/dotcypress/koa-force-ssl",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dotcypress/koa-force-ssl.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dotcypress/koa-force-ssl/issues"
+  },
+  "devDependencies": {
+    "koa": "^0.6.0"
+  },
+  "keywords": [
+    "koa",
+    "ssl"
+  ],
+  "author": "Vitaly Domnikov",
+  "license": "MIT",
+  "engines": {
+    "node": "^0.11.12"
+  }
+}

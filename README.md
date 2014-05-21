@@ -19,7 +19,7 @@ var koa = require('koa');
 var http = require('http');
 var https = require('https');
 var fs = require('fs');
-var forceSSL = require('./index');
+var forceSSL = require('koa-force-ssl');
 
 var app = koa();
 

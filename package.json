@@ -1,6 +1,6 @@
 {
   "name": "koa-force-ssl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Koa.js middleware for force SSL",
   "main": "index.js",
   "homepage": "http://github.com/dotcypress/koa-force-ssl",
@@ -16,6 +16,9 @@
   },
   "keywords": [
     "koa",
+    "koa.js",
+    "middleware",
+    "https",
     "ssl"
   ],
   "author": "Vitaly Domnikov",

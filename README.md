@@ -8,10 +8,11 @@ $ npm install koa-force-ssl
 ```
 
 ## API
-`forceSSL(port, host);`
+`forceSSL(port, hostname, temporary);`
 
 * port - SSL port (default value: 443)
-* host - host name for redirect (by default will redirect to same host)
+* hostname - host name for redirect (by default will redirect to same host)
+* temporary - use "302 Temporary Redirect" (by default will use "301 Permanent Redirect")
 
 ## Example
 ```

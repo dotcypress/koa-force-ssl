@@ -9,7 +9,7 @@ var url = require('url');
  *
  * @param {Integer} port
  * @param {String} hostname
- * @param {Boolens} temporary
+ * @param {Boolean} temporary
  * @return {Function}
  * @api public
  */

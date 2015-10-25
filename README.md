@@ -2,6 +2,10 @@
 
 [Koa.js](http://koajs.com/) middleware for force SSL
 
+*This middleware is deprecated, please use [koa-sslify](https://github.com/turboMaCk/koa-sslify)*
+
+
+
 ## Install 
 ```
 $ npm install koa-force-ssl

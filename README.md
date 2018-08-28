@@ -1,4 +1,6 @@
-#koa-force-ssl
+# koa-force-ssl
+
+<a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>
 
 [Koa.js](http://koajs.com/) middleware for force SSL
 
